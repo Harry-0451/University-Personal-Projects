@@ -16,15 +16,15 @@ The project goal was to create a user interface for two unrelated systems. One s
 <p>
   
   ## Main Window
-  <img align="center" src="GitHub/Window.png">
+  <img align="middle" src="GitHub/Window.png">
   
   ## User Inputs Text Prompt
-  <img align="center" src="GitHub/UserInput.png">
+  <img align="middle" src="GitHub/UserInput.png">
   
   ## User Selects Style
-  <img align="center" src="GitHub/UserStyle.png">
+  <img align="middle" src="GitHub/UserStyle.png">
   
   ## Program Generates Output
-  <img align="center" src="GitHub/WindowOutput.png">
+  <img align="middle" src="GitHub/WindowOutput.png">
   
 </p>
