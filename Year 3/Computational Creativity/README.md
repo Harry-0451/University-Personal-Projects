@@ -13,13 +13,16 @@ The goal was to create a user interface for two unrelated systems. One system wo
   <img src="Produced Work/Variety Test/Cliff on top of a house.png" width="100" />
   <img src="Produced Work/Variety Test/House under the sea.png" width="100" />
   <img src="Produced Work/Variety Test/Man on the moon.png" width="100" />
+  
   <img src="Produced Work/Spontaneity & Originality Test/Space in a bottle 2.png" width="100" />
+  
   <img src="Produced Work/Persistence Test/500 Iterations/black_hole 5.png" width="100" />
-  <img src="Produced Work/Interaction Test/Juice on a moose.png" width="100" />
-  <img src="Produced Work/Interaction Test/house in the clouds.png" width="100" />
-  <img src="Produced Work/Interaction Test/Robot flying.png" width="100" />
-  <img src="Produced Work/Interaction Test/Wide open field in mid century england.png" width="100" />
-  <img src="Produced Work/Interaction Test/house in the clouds.png" width="100" />
+  
+  <img src="Produced Work/Interaction Test/Juice on a moose.png" width="200" />
+  <img src="Produced Work/Interaction Test/house in the clouds.png" width="200" />
+  <img src="Produced Work/Interaction Test/Robot flying.png" width="200" />
+  <img src="Produced Work/Interaction Test/Wide open field in mid century england.png" width="200" />
+  <img src="Produced Work/Interaction Test/house in the clouds.png" width="200" />
   
   
   
