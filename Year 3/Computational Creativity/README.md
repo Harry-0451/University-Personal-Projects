@@ -67,3 +67,9 @@ The goal was to create a user interface for two unrelated systems. One system wo
 
 ### Notes
 * There is a large data set not added to open_images_annotations_100 as the files are too big for GitHub to take. This may cause the program not to work on other computers.
+
+## Citations
+
+Nerdy Rodent- https://github.com/nerdyrodent/VQGAN-CLIP
+
+Katherine Crowson - <https://github.com/crowsonkb>
