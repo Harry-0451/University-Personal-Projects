@@ -4,7 +4,7 @@
 
 The goal was to create a user interface for two unrelated systems. One system would create an image based on user input, the second would style that image to a particular genre & later during development I attempted to find a method to categorise said image so that it may be titled.
 
-## Results Of Program
+## Generated Images
 
 <p float="left">
   
@@ -18,6 +18,11 @@ The goal was to create a user interface for two unrelated systems. One system wo
   
   <img src="Produced Work/Persistence Test/500 Iterations/black_hole 5.png" width="200" />
   
+</p>
+
+## Program In Use
+  
+<p float="left">
   <img src="Produced Work/Interaction Test/Juice on a moose.png" width="500" />
   <img src="Produced Work/Interaction Test/house in the clouds.png" width="500" />
   <img src="Produced Work/Interaction Test/Robot flying.png" width="500" />
