@@ -13,18 +13,24 @@ The project goal was to create a user interface for two unrelated systems. One s
 * style.py
 * title_generator.py
 
+
+## Main Window
 <p align="center">
-  
-  ## Main Window
   <img src="GitHub/Window.png">
-  
-  ## User Inputs Text Prompt
+</p>
+
+
+## User Inputs Text Prompt
+<p align="center">
   <img src="GitHub/UserInput.png">
-  
-  ## User Selects Style
+</p>
+
+## User Selects Style
+<p align="center">
   <img src="GitHub/UserStyle.png">
-  
-  ## Program Generates Output
+</p>
+
+## Program Generates Output
+<p align="center">
   <img src="GitHub/WindowOutput.png">
-  
 </p>
