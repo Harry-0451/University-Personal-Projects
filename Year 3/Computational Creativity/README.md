@@ -2,7 +2,7 @@
 
 ### The files I worked on
 
-* assist.py
 * main.py
+* assist.py
 * style.py
 * title_generator.py 
