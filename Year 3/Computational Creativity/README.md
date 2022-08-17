@@ -27,7 +27,7 @@ The goal was to create a user interface for two unrelated systems. One system wo
   <img src="Produced Work/Interaction Test/house in the clouds.png" width="500" />
   <img src="Produced Work/Interaction Test/Robot flying.png" width="500" />
   <img src="Produced Work/Interaction Test/Wide open field in mid century england.png" width="500" />
-  <img src="Produced Work/Interaction Test/house in the clouds.png" width="500" />
+  <img src="Produced Work/Interaction Test/Man on pavement.png" width="500" />
   
   
   
