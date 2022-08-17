@@ -16,6 +16,11 @@ The project goal was to create a user interface for two unrelated systems. One s
 
 
 Example Image On How to do this.
+
+<p align="center">
+  <img src="GitHub/Window.png">
+</p>
+
 ![Starting Window](GitHub/Window.png)
 ![Input Made](GitHub/UserInput.png)
 ![Style Selected](GitHub/UserStyle.png)
