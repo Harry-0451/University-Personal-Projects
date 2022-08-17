@@ -8,11 +8,11 @@ The goal was to create a user interface for two unrelated systems. One system wo
 
 <p float="left">
   
-  <img src="Produced Work/Ball in an ocean.png" width="100" />
-  <img src="Produced Work/Bike in space.png" width="100" />
-  <img src="Produced Work/Cliff on top of a house.png" width="100" />
-  <img src="Produced Work/House under the sea.png" width="100" />
-  <img src="Produced Work/Man on the moon.png" width="100" />
+  <img src="Produced Work/Variety Test/Ball in an ocean.png" width="100" />
+  <img src="Produced Work/Variety Test/Bike in space.png" width="100" />
+  <img src="Produced Work/Variety Test/Cliff on top of a house.png" width="100" />
+  <img src="Produced Work/Variety Test/House under the sea.png" width="100" />
+  <img src="Produced Work/Variety Test/Man on the moon.png" width="100" />
   
 </p>
 
