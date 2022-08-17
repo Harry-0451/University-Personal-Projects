@@ -13,6 +13,7 @@ The project goal was to create a user interface for two unrelated systems. One s
 * style.py
 * title_generator.py
 
+## Program Screenshots
 
 ### Main Window
 <p align="center">
