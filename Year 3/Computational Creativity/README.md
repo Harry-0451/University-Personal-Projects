@@ -64,3 +64,6 @@ The goal was to create a user interface for two unrelated systems. One system wo
 <p align="center">
   <img src="GitHub/WindowOutput.png">
 </p>
+
+### Notes
+There is a large data set not added to open_images_annotations_100 as the files are too big for GitHub to take. This may cause the program not to work on other computers.
