@@ -19,3 +19,4 @@ Example Image On How to do this.
 ![Starting Window](GitHub/Window.png)
 ![Input Made](GitHub/UserInput.png)
 ![Style Selected](GitHub/UserStyle.png)
+![Output](GitHub/WindowOutput.png)
