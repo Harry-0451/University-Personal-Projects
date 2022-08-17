@@ -18,8 +18,16 @@ The project goal was to create a user interface for two unrelated systems. One s
 Example Image On How to do this.
 
 <p align="center">
+  ## Main Window
   <img src="GitHub/Window.png">
+  
+  ## User Inputs Text Prompt
   <img src="GitHub/UserInput.png">
+  
+  ## User Selects Style
   <img src="GitHub/UserStyle.png">
+  
+  ## Program Generates Output
   <img src="GitHub/WindowOutput.png">
+  
 </p>
