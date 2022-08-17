@@ -13,11 +13,8 @@ The project goal was to create a user interface for two unrelated systems. One s
 * style.py
 * title_generator.py
 
-
-
-Example Image On How to do this.
-
 <p align="center">
+  
   ## Main Window
   <img src="GitHub/Window.png">
   
