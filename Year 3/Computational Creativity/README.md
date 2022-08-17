@@ -6,7 +6,7 @@ The goal was to create a user interface for two unrelated systems. One system wo
 
 ## Generated Images
 
-<p float="left">
+<p float="center">
   
   <img src="Produced Work/Variety Test/Ball in an ocean.png" width="200" />
   <img src="Produced Work/Variety Test/Bike in space.png" width="200" />
@@ -22,7 +22,7 @@ The goal was to create a user interface for two unrelated systems. One system wo
 
 ## Program In Use
   
-<p float="left">
+<p float="center">
   <img src="Produced Work/Interaction Test/Juice on a moose.png" width="500" />
   <img src="Produced Work/Interaction Test/house in the clouds.png" width="500" />
   <img src="Produced Work/Interaction Test/Robot flying.png" width="500" />
