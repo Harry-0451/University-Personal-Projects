@@ -16,4 +16,4 @@ The project goal was to create a user interface for two unrelated systems. One s
 
 
 Example Image On How to do this.
-![What is this](GitHub/final_image.png)
+![What is this](GitHub/Window.png)
