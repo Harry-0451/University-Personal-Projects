@@ -19,9 +19,7 @@ Example Image On How to do this.
 
 <p align="center">
   <img src="GitHub/Window.png">
+  <img src="GitHub/UserInput.png">
+  <img src="GitHub/UserStyle.png">
+  <img src="GitHub/WindowOutput.png">
 </p>
-
-![Starting Window](GitHub/Window.png)
-![Input Made](GitHub/UserInput.png)
-![Style Selected](GitHub/UserStyle.png)
-![Output](GitHub/WindowOutput.png)
