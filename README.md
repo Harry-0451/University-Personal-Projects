@@ -1,12 +1,12 @@
 University-Personal-Projects
 
-## University Projects
+### University Projects
 
 ### Problem Solving with Algorithms
 ### Introduction to Object-Oriented Programming
 ### Further Object-Oriented Programming
 
-### Algorithms, Correctness and Efficiency Year 2
+#### Algorithms, Correctness and Efficiency Year 2
 ### Introduction to Cyber SecurityComputer Security and Cryptography Year 2
 ### Software Development Year 2
 ### Introduction to Intelligent Systems Year 2
