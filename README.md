@@ -1,4 +1,4 @@
-# University-Personal-Projects
+University-Personal-Projects
 
 ## University Projects
 
