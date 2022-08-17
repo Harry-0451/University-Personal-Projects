@@ -8,15 +8,15 @@ The goal was to create a user interface for two unrelated systems. One system wo
 
 <p float="left">
   
-  <img src="Produced Work/Variety Test/Ball in an ocean.png" width="100" />
-  <img src="Produced Work/Variety Test/Bike in space.png" width="100" />
-  <img src="Produced Work/Variety Test/Cliff on top of a house.png" width="100" />
-  <img src="Produced Work/Variety Test/House under the sea.png" width="100" />
-  <img src="Produced Work/Variety Test/Man on the moon.png" width="100" />
+  <img src="Produced Work/Variety Test/Ball in an ocean.png" width="200" />
+  <img src="Produced Work/Variety Test/Bike in space.png" width="200" />
+  <img src="Produced Work/Variety Test/Cliff on top of a house.png" width="200" />
+  <img src="Produced Work/Variety Test/House under the sea.png" width="200" />
+  <img src="Produced Work/Variety Test/Man on the moon.png" width="200" />
   
-  <img src="Produced Work/Spontaneity & Originality Test/Space in a bottle 2.png" width="100" />
+  <img src="Produced Work/Spontaneity & Originality Test/Space in a bottle 2.png" width="200" />
   
-  <img src="Produced Work/Persistence Test/500 Iterations/black_hole 5.png" width="100" />
+  <img src="Produced Work/Persistence Test/500 Iterations/black_hole 5.png" width="200" />
   
   <img src="Produced Work/Interaction Test/Juice on a moose.png" width="500" />
   <img src="Produced Work/Interaction Test/house in the clouds.png" width="500" />
