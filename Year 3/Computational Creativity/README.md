@@ -11,6 +11,14 @@ The goal was to create a user interface for two unrelated systems. One system wo
 * style.py
 * title_generator.py
 
+## Further Work
+* Another button could be added to generate the style to the image separately from generating the image. This would be useful as depending on the hardware  it can take from about six to eleven minutes to just generate the image. The user may like the image and only want to see the distinctive styles applied instead of just overwriting it with another.
+
+* Another change I would make is the limitation of pictures to choose from in style. The categories could be increased, but more specifically the pictures in each category should be vastly expanded and then randomised to allow for a larger variety of styles and nuances to be created in the final image. 
+
+* The current title function doesn’t quite hit the mark and I believe there could be more effective ways of implementing that system. Grammatical errors occur often with this system & something like MLCONJUG3 could be beneficial to restructure titles using machine learning techniques.
+
+
 ## Generated Images
 
 <p align="center">
