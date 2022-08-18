@@ -4,6 +4,13 @@
 
 The goal was to create a user interface for two unrelated systems. One system would create an image based on user input, the second would style that image to a particular genre & later during development I attempted to find a method to categorise said image so that it may be titled.
 
+## Files I worked on
+
+* main.py
+* assist.py
+* style.py
+* title_generator.py
+
 ## Generated Images
 
 <p align="center">
@@ -34,13 +41,6 @@ The goal was to create a user interface for two unrelated systems. One system wo
   
    
 </p>
-
-## Files I worked on
-
-* main.py
-* assist.py
-* style.py
-* title_generator.py
 
 ## Program Screenshots
 
