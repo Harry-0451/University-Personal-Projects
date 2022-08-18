@@ -22,17 +22,23 @@ The goal was to create a user interface for two unrelated systems. One system wo
 ## Generated Images
 
 <p align="center">
-  
   <img src="Produced Work/Variety Test/Ball in an ocean.png" width="200" />
   <img src="Produced Work/Variety Test/Bike in space.png" width="200" />
   <img src="Produced Work/Variety Test/Cliff on top of a house.png" width="200" />
   <img src="Produced Work/Variety Test/House under the sea.png" width="200" />
   <img src="Produced Work/Variety Test/Man on the moon.png" width="200" />
-  
   <img src="Produced Work/Spontaneity & Originality Test/Space in a bottle 2.png" width="200" />
-  
   <img src="Produced Work/Persistence Test/500 Iterations/black_hole 5.png" width="200" />
-  
+</p>
+
+## Style Images
+
+<p align="center">
+  <img src="Style_Images/Abstract.jpg " width="200" />
+  <img src="Style_Images/Classicism.jpg " width="200" />
+  <img src="Style_Images/Cubism.jpg" width="200" />
+  <img src="Style_Images/Pop.jpg" width="200" />
+  <img src="Style_Images/Post-Impressionism.jpg" width="200" />
 </p>
 
 ## Program Screenshots
