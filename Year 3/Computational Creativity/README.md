@@ -27,21 +27,6 @@ The goal was to create a user interface for two unrelated systems. One system wo
   
 </p>
 
-## Program In Use
-  
-<p align="center">
-  <img src="Produced Work/Interaction Test/Juice on a moose.png" width="500" />
-  <img src="Produced Work/Interaction Test/house in the clouds.png" width="500" />
-  <img src="Produced Work/Interaction Test/Robot flying.png" width="500" />
-  <img src="Produced Work/Interaction Test/Wide open field in mid century england.png" width="500" />
-  <img src="Produced Work/Interaction Test/Man on pavement.png" width="500" />
-  
-  
-  
-  
-   
-</p>
-
 ## Program Screenshots
 
 ### Main Window
@@ -63,6 +48,16 @@ The goal was to create a user interface for two unrelated systems. One system wo
 ### Program Generates Output
 <p align="center">
   <img src="GitHub/WindowOutput.png">
+</p>
+
+### Program In Use
+  
+<p align="center">
+  <img src="Produced Work/Interaction Test/Juice on a moose.png" width="500" />
+  <img src="Produced Work/Interaction Test/house in the clouds.png" width="500" />
+  <img src="Produced Work/Interaction Test/Robot flying.png" width="500" />
+  <img src="Produced Work/Interaction Test/Wide open field in mid century england.png" width="500" />
+  <img src="Produced Work/Interaction Test/Man on pavement.png" width="500" />
 </p>
 
 ### Notes
