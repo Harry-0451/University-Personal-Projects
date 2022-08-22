@@ -1,0 +1,86 @@
+{% extends "sas/base.html" %}
+{% block content %}
+{% load static %}
+<div class="row">
+<div class="col-2" style="height:50%;">
+    <div id="stock_ticker" class="ticker ms-4 mt-5">{{ data.stock_ticker }}</div>
+    <hr>
+    <img src='{% static data.stock_img %}' class="h-25 mt-3 im" alt='{{ data.stock_name }}logo'>
+
+
+</div>
+<!--    <div class="col">-->
+<!--        -->
+<!--    </div>-->
+    <div class="col-7 box d-flex">
+        {{data.stock_desc}}
+        <table class="table mt-4">
+            <tr>
+                <td>Open        </td>
+                <td>{{ data_table.open }}</td>
+            </tr>
+            <tr>
+                <td>High      </td>
+                <td>{{ data_table.high }}</td>
+            </tr>
+            <tr>
+                <td>Low       </td>
+                <td>{{ data_table.low }}</td>
+            </tr>
+            <tr>
+                <td>Close     </td>
+               <td>{{ data_table.close }}</td>
+            </tr>
+        </table>
+</div>
+    <div class="col-2 d-flex">
+
+        <div class="ps-4" id="bear" style="Display:block;">
+            <p class="b">Recommendation loading</p>
+            <img src="{% get_static_prefix %}sas/images/bear.gif" alt="bear with us" style="height: 12rem; width:12rem;">
+
+            <p class="ps-3 b"> Bear with us</p>
+            </div>
+        <div class="ps-4" id="rec" style="Display:none;">
+        <a id="recbutton" class="p-3 h bounce button-30" href="{% url 'recommendation' data.stock_ticker %}">Get Recommendation</a>
+</div></div>
+</div>
+<div class="row">
+    <!--<h1 class="d-flex justify-content-center">{{ data.stock_name }} </h1>-->
+<!--    <input id='stock' style="display: none;" value={{ data.stock_ticker }}>-->
+        <div class="">
+        </div>
+        {% load plotly_dash %}
+
+<!--    <div class="h-50"></div>-->
+<!--<div class="d-flex justify-content-center" >-->
+<!--    <div class="row">-->
+<!--        <div class="d-flex justify-content-center p-3">-->
+<!--            <button class="p-2 button-30" onclick="showHideGraphs()" style="">More info</button>-->
+<!--        </div></div> -->
+
+<!--</div>-->
+<!--{% load plotly_dash %}-->
+   <div class="container"></div>
+<div id="graphs"  class="{% plotly_class name='StockGraphs'%} pt-2">
+    {% plotly_app name="StockGraphs" initial_arguments=dash_context ratio=1 %}
+</div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $.ajax({
+            url:"rec/",
+            type:"GET",
+            success: function(pred) {
+            $("#rec").css("display", "block");
+            $("#bear").css("display", "none");
+            },
+            error: function() {
+                alert("Something went wrong with the recommendation  :( \n Please try again later.");
+            }
+        });
+    });
+</script>
+
+<!--<div style="height:70px;"></div>-->
+{% endblock content%}

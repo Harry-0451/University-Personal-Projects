@@ -1,0 +1,51 @@
+{% extends "sas/base.html" %}
+{% block content %}
+{% load static %}
+<div class="container">
+        <div class="row">
+
+            <div class="col-md-1 pt-4">
+                    <a class="" style="height:50%;" href="{% url 'details' d.stock_ticker %}"><img class="h-50" src="{% get_static_prefix %}sas/images/{{d.stock_name}}Logo.png"  alt= '{{d.stock_ticker}} logo' ></a>
+
+
+
+            </div>
+            <div class="col-md-6 pt-5 header d-flex justify-content-center" style="font-size:2.5em;">
+            <div> {{ d.stock_ticker }} is a <span id="pre" style="color:green;">{{ prediction }}</span></div>
+
+            </div>
+
+
+        </div>
+    <div class="row pt-1">
+    <div class="col d-flex justify-content-center">
+        <h2>Recommendation Breakdown</h2>
+    </div>
+    </div>
+    <div class="row pt-1">
+
+        <div class="col">
+            {% load plotly_dash %}
+            <div id="graphs" class="{% plotly_class name='RecomGraphs' %}">
+                {% plotly_app name="RecomGraphs" initial_arguments=dash_context ratio=1 %}
+            </div>
+    </div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+       if ("{{prediction}}" == "Buy!") {
+            $("#pre").css("color", "green");
+            } else {
+            $("#pre").css("color", "red");
+            }
+    });
+</script>
+
+
+<!--</script>-->
+
+
+{% endblock content%}

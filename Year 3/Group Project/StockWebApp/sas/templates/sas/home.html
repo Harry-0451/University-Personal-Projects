@@ -1,0 +1,40 @@
+{% extends "sas/base.html" %}
+{% block content %}
+{% load static %}
+<div class="container">
+        <div class="row p-1 m-3">
+            <p>
+
+            StockPal is a stock helper web application that will help you know where to put your money!<br>
+            </p>
+            <p>
+             We use an AI driven algorithm to help put you on the right path when making decisions in trading.
+             Here you can find a recommendation to buy or sell along with some useful information about the stock.
+            <br>
+                This application is for any level of experience with stocks whether you are a complete beginner looking at getting some help with where to start or someone that has years of experience
+                with trading and want another opinion on how a stock may perform.
+
+        </p>
+</div>
+</div>
+
+<hr>
+    <!--<label class="stocks">Please select a stock</label>-->
+    <!--<select name="Stocks" class="stocks">-->
+    <!--    <option value="select"> select</option>-->
+    <!--    {% for stock in stock_list %}-->
+    <!--    <option value="{{ stock.stock_ticker }}">{{ stock.stock_ticker }}</option>-->
+    <!--    {% endfor %}-->
+    <!--</select>-->
+    <div class="row mx-2">
+        <div class="row justify-content-center">
+            {% for stock in stock_list %}
+
+            <div class="col-md-4">
+                <button class="image-btn" ><a href="{% url 'details' stock.stock_ticker %}" class="company"><img  src="{% get_static_prefix %}sas/images/{{stock.stock_name}}Logo.png" alt= '{{stock.stock_ticker}} logo' ></a></button>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Palette+Mosaic&display=swap');
+
+#textarea-example1 {
+    width: 80%;
+    height: 200px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    font-size: 15px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+#stocks_history {
+    width: 49%;
+    height: 50%;
+    border: none;
+    float: right;
+}
+
+#RSI {
+    width: 49%;
+    height: 50%;
+    border: none;
+    float: right;
+}
+
+#textarea-example2 #textarea-example3 {
+    width: 49%;
+    height: 444px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+}
+
+#text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#text1 {
+  font-family: 'Montserrat', sans-serif;
+}
