@@ -1,5 +1,0 @@
-#!/bin/bash
-# Compile the code of the Receiver.
-# receiver --mtu 20 < frames.txt (insert your own frames text file and load each new frame on a different line.)
-
-javac -cp . MessageReceiverMain.java $*
