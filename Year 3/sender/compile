@@ -1,3 +1,0 @@
-#!/bin/bash
-# Compile the code of the Sender.
-javac -cp . MessageSenderMain.java $*

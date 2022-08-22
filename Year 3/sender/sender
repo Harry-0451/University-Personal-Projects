@@ -1,3 +1,0 @@
-#!/bin/bash
-# Run the code of the Sender.
-java -cp . MessageSenderMain $*
