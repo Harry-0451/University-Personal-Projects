@@ -1,0 +1,5 @@
+DTHEREWASNOFURTHERRASHNESSTOBE
+
+For this task I reused the software I created from Task 3, except I changed the key length to 4, removed 2 array blocks which didn't seem to decript anything and so I tried 5 and added one of the array blocks to have the length 5. This provided some readable text and returned the key IKUIB, from this I saw that every 5th character seemed to be off. I then (like the previous task) tried the next most common letter which gave me seemingly the correct text meaning the key is was IKUIM.
+
+

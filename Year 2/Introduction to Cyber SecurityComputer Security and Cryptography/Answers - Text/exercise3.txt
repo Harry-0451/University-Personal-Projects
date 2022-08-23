@@ -1,0 +1,14 @@
+AGAUNTFOURPOSTBEDSTEADWHICHSTO
+
+This is the first 30 characters recieved from the decrypted text file. This was achieved by using my own program which is built up from the first two solutions as well as an additional measure. I started by splitting up the encrypted file into 6 character blocks (due to the length of the key). Each character went into the respective element in an array this therefor created a string of encrypted characters that belong to a single letter for the key. I then used the same functionality as the caesar cipher where I assume the most common character is E and set it accordingly. From there, I had a partial key where two of the characters in the key seemed incorrect (The key at this time was: IQUUBV and I could tell words weren't forming correctly on the 4th and 5th character.) 
+
+I created a for loop that outputs the count of each letter occurence in each string. Went to the 4th and 5th string and tried the next most frequent occurences. After a short time, I reached key IQUHMV which decrypted the whole text correctly.
+
+1 = I
+2 = Q
+3 = U
+4 = L - E = H (L was the 5th most common character, L take away E is H)
+5 = Q - E = M (Q was the next most common character take away E gives M)
+6 = V
+
+File for this example: exer3.java

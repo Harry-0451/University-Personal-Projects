@@ -1,0 +1,5 @@
+UNAGLISTENINGRIPPLEOFGOSSAMERW
+
+For this exercise I created a program called exer2.java that takes the provided text and the provided key. Goes through 
+each letter in the provided text and shifts the character by the current key character and adds it to a new string 
+called decrpytedText. Thus giving the decoded message.

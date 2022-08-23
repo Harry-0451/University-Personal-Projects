@@ -1,0 +1,7 @@
+UAREFORGIVENIFORGIVEYOUANGELYO
+
+Similar to the previous program. This was done by taking the encrypted text, creating the length of each column. Creating a place for characters to be stored in an array and for each character in the text, it's added to the newText column until the length is too much and goes to the next index. 
+
+The difference in this program is that it can change the rows that the program counts the decryption column back up in.  
+
+With this many different rows that can be tried. Obviously this isn't the best way to do this but creating a large list of different possible combinations to try did help narrow it down quite quickly.

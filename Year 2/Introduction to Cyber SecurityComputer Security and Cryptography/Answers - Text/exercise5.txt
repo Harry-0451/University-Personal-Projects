@@ -1,0 +1,6 @@
+ORTINCLARESATTENTIONSTOHERITWA
+
+The coded message is loaded into a string. Each character in the string is loaded into an element and if the element length gets bigger than the text given / 6 then the program moves onto the next index in the array. After this is done for the whole text, another for loop is ran that then takes the first letter in each of the index and adds it to the decryption string. Once this is done for every character, the program then prints the decryption text.
+
+File: exer5.java
+

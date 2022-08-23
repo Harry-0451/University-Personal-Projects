@@ -1,0 +1,5 @@
+IDHEIHAVESEPARATEDFROMMYWIFEFO
+
+I created a short program that counts the occurrences of each character in the provided file. I then made the assumption while programming that the most common character in the file (In my case Z) is in fact E. The program then looks at the index of the most common character and takes it away by the index of E (mostCommonIndex - 4). Therefor the key is (25 - 4) = 21. Thus, the most common character E has been shifted by 21 places to Z. The program then shifts each character by 21 places to the correct text.
+
+The program that I created for this exercise is called exer1.java.
