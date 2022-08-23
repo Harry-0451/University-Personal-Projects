@@ -1,0 +1,49 @@
+Login Panel Testing:
+
+testLoginCorrectInfo: Passed
+testLoginIncorrectUsername: Passed
+testLoginIncorrectPassword: Passed
+testLoginIncorrectCombo: Passed
+testLoginBlankUsername: Passed
+testLoginBlankPassword: Passed
+
+
+Booking Panel Testing:
+
+testYearBelowBounds = Passed
+testMonthNonNumber = Passed
+testMonthAboveBounds = Passed
+testYearNonNumber = Passed
+testYearEmpty = Passed
+testMonthBelowBounds = Passed
+testMonthEmpty = Passed
+
+
+Find Appointment Testing:
+testIncorrectUsername = Passed
+testBlankUsername = Passed
+testSqlInjection = Passed
+
+
+Create Appointment Testing:
+testDayNonNumber = Passed
+testMonthNonNumber = Passed
+testYearNonNumber = Passed
+testDayEmpty = Passed
+testMonthEmpty = Passed
+testYearEmpty = Passed
+testDayBelowBounds = Passed
+testDayAboveBounds1 = Passed
+testDayAboveBounds2 = Passed
+testDayAboveBounds3 = Passed
+testDayAboveBounds4 = Passed
+testMonthBelowBounds = Passed
+testMonthAboveBounds = Passed
+testYearBelowBounds = Passed
+
+ChangePatient
+Updates table = Passed
+Stop no doctor entry = Passed
+Stops no patient entry = Passed
+Stops empty field = Passed
+

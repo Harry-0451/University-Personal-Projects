@@ -1,0 +1,6 @@
+View Patients Testing
+
+Doctor can access panel: Yes
+Patient's information is taken if logged in doctor is the same as username column: Yes
+Each patient is displayed as a new row: Yes
+Doctor only sees his patients: Yes
