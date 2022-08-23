@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 1 - Question 2</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Assignment1 Question2">
+		<meta name="author" content="Harry Hacker">
+	</head>
+	<body>
+		<!--User inputs the amount of boxes that they want to be displayed with a minimum of 0-->
+		<input id="numberBoxes" min="0">
+		<!--Button used to call function drawBox()-->
+		<button type="button" id="button" onclick="drawBox()">Draw</button>
+		<!--The place where each box will be drawn onto the screen-->
+		<div id="boxArea"></div>
+	</body>
+	<style>
+	.boxShape{
+		width: 100px;
+		height: 100px;
+		margin-top: 20px;
+		float: left;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		font-weight: bold;
+	}
+	</style>
+	<script>
+		//This gets hold of the value inputted by the user (The number of boxes they want to display)
+		var boxesWanted = document.getElementById("numberBoxes").value;
+
+		//This function generates a random colour and returns it in an rgb format.
+		function randomColour(){
+			var x = Math.floor(Math.random() * 256);
+			var y = Math.floor(Math.random() * 256);
+			var z = Math.floor(Math.random() * 256);
+			var ranColour = "rgb(" + x + "," + y + "," + z + ")";
+			
+			return ranColour;
+		}
+		
+		//This function removes all of the boes that have been generated using a while loop for each element.
+		function removeBoxes(){
+			var elements = document.getElementsByClassName('boxShape');
+			while(elements[0]) {
+				elements[0].parentNode.removeChild(elements[0]);
+			}
+		}
+		
+		//This function is ran whenever the user clicks on the draw button.
+		function drawBox(){
+			//This removes the boxes that have previously been displayed.
+			removeBoxes()
+			
+			var boxesWanted = document.getElementById("numberBoxes").value;
+			currentMargin = 5;
+			
+			//For each number of boxes wanted the for loop creates a new div element with  a new id, randomised background, 
+			//assigned the class boxShape, a margin is then assigned, then multipied for the next box with an innerhtml for 
+			//the number of boxes in line. 
+			for (var numBox = 0; numBox < boxesWanted; numBox++) {
+				var newBox = document.createElement('div');
+				newBox.id = 'box' + numBox;
+				newBox.className = 'boxShape';
+				newBox.style.backgroundColor = randomColour();
+				newBox.style.marginLeft = currentMargin + "px";
+				currentMargin = currentMargin * 2;
+				newBox.innerHTML = numBox + 1;
+				document.getElementById("boxArea").appendChild(newBox);
+			}
+			
+		}
+	</script>
+</html>

@@ -1,0 +1,49 @@
+-- 1.	List the names and weightings of all assessments in the course titled 'Database Systems'. The list should be ordered by the assessment name.	[4 marks]
+
+SELECT   name, weighting
+FROM     Assessment a JOIN Course c ON a.cid = c.cid 
+WHERE    title = 'Database Systems'
+ORDER BY name;
+
+SELECT   name, weighting
+FROM     Assessment a, Course c
+WHERE    a.cid = c.cid AND title = 'Database Systems'
+ORDER BY name;
+
+-- 2.	Find the course ID, the name and average mark of each assessment. Results should be ordered by the course ID and then the assessment name.	[4 marks]
+
+SELECT cid, name, AVG(mark) AS avg_mark
+FROM Grade g JOIN Assessment a ON g.aid = a.aid      
+GROUP BY cid, name
+ORDER BY cid, name;
+
+SELECT cid, name, AVG(mark) AS avg_mark
+FROM Grade g, Assessment a
+WHERE g.aid = a.aid      
+GROUP BY cid, name
+ORDER BY cid, name;
+
+-- 3.	(Challenging) Show the detailed results achieved by a specific student: sid= ‘S0001’.  
+-- a)	For each course taken by the given student, show the course ID, title, name, weighting and mark achieved for each assessment. 	[3 marks]
+
+SELECT c.cid, c.title, name, weighting, mark
+FROM   Grade g JOIN Assessment a ON g.aid = a.aid JOIN Course c on a.cid = c.cid          
+WHERE  sid = 'S0001';
+
+SELECT c.cid, c.title, name, weighting, mark
+FROM   Grade g, Assessment a, Course c          
+WHERE  g.aid = a.aid AND a.cid = c.cid AND sid = 'S0001';
+
+-- b)	Show the student’s final result on each of the courses they have taken.	[5 marks] 
+
+SELECT cid, 
+       SUM(mark*weighting)/100 AS Final 
+FROM   Grade g JOIN Assessment a ON g.aid = a.aid  
+WHERE  sid = 'S0001' 
+GROUP BY cid;
+
+SELECT cid,
+       SUM(mark*weighting)/100 AS Final 
+FROM   Grade g, Assessment a  
+WHERE  g.aid = a.aid AND sid = 'S0001' 
+GROUP BY cid;

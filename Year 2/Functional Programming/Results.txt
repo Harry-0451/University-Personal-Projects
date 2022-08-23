@@ -1,0 +1,42 @@
+---------------------------------------
+ CO545 Assessment 2 - hwh2
+---------------------------------------
+
+Final mark = 21 / 25 
+
+Great work! 
+
+------------------------
+
+ # Q1: 2/5 marks
+
+ * (-3 marks) Incorrect for perhaps inputs
+
+------------------------
+
+ # Q2: 5/5 marks
+
+ * Great!
+ * Better style to match directly on `perhaps`
+
+------------------------
+
+ # Q3: 5/5 marks
+
+ * Great!
+ * No need for the second clause - it's covered by the third one.
+
+------------------------
+
+ # Q4: 5/5 marks
+
+ * Great!
+
+
+------------------------
+
+ # Q5: 4/5 marks
+
+ * (-1 marks) Incorrect message sends - should send `X` to `P` and then recurse with `X + 1`.
+
+

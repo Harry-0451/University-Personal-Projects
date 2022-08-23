@@ -1,0 +1,34 @@
+Student Number: 19885650
+Username: hwh2
+Name: Harry Hacker 
+
+Answer 1:
+
+SELECT name, weighting 
+FROM Assessment, Course
+WHERE Course.title IN ('Database systems') 
+AND Course.cid = Assessment.cid 
+ORDER BY name ASC;
+
+Answer 2:
+
+SELECT Assessment.cid, Assessment.name, AVG(Grade.mark) AS 'Average Mark' 
+FROM Grade, Assessment 
+WHERE Assessment.aid = Grade.aid 
+GROUP BY cid,name;
+
+Answer 3 - A:
+
+SELECT Course.cid, Course.title, Assessment.name, Assessment.weighting, Grade.mark 
+FROM Grade, Assessment, Course 
+WHERE Grade.aid = Assessment.aid 
+AND Course.cid = Assessment.cid 
+AND Grade.sid = "S0001";
+
+Answer 3 - B:
+
+SELECT Assessment.cid, SUM((Assessment.weighting * Grade.mark)/100) AS 'weighted average'
+FROM Grade, Assessment
+WHERE Grade.aid = Assessment.aid 
+AND Grade.sid = "S0001"  
+GROUP BY cid;

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 1 - Question 3</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Assignment1 Question3">
+		<meta name="author" content="Harry Hacker">
+	</head>
+	<body>
+		<!--This is the line where the webpage displays who won the game.-->
+		<div id="win"></div>
+		
+		<!--This is the creation of the game board that gives the user a graphical interface to play the game on.-->
+		<div class="game">
+			<!--Each box is an individual button that allows a player to click and play the game.-->
+			<div class="box" id="box1" onclick="box1button()"></div>
+			<div class="box" id="box2" onclick="box2button()"></div>
+			<div class="box" id="box3" onclick="box3button()"></div>
+			<div class="box" id="box4" onclick="box4button()"></div>
+			<div class="box" id="box5" onclick="box5button()"></div>
+			<div class="box" id="box6" onclick="box6button()"></div>
+			<div class="box" id="box7" onclick="box7button()"></div>
+			<div class="box" id="box8" onclick="box8button()"></div>
+			<div class="box" id="box9" onclick="box9button()"></div>
+		</div>
+		
+		<!--This is a button used to activate the reset function.-->
+		 <button type="button" id="button" onclick="reset()" >Reset</button>    
+	</body>
+	<style>
+		#button{
+		margin-left: 48.4%;
+		}
+		
+		.box{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid black;
+		margin-right: 40px;
+		margin-bottom: 40px;
+		width: 125px;
+		height: 125px;
+		font-size: 75px;
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		}
+		
+		.game{
+		display: grid;
+		width: 500px;
+		height: 500px;
+		grid-template-columns: auto auto auto;
+		margin: auto;
+		
+		}
+		
+		#win{
+		display: flex;
+		justify-content: center;
+		font-size: 50px;
+		height: 50px;
+		margin-bottom: 25px;
+		}
+	</style>
+	<script>
+	
+		//Setting the values needed throughout the game. (this is the games "Board" set into an array)
+		var board = ["" , "" , "" , "" , "" , "" , "" , "" , ""];
+		const playerO = "O";
+		const playerX = "X";
+		var counter = 0;
+		var winner = false;
+		
+		//Box buttons that check there is nothing set, if there isn't then it will
+		//check if the counter is divisible by 2 (evens are), if it is it will place
+		//an X otherwise it will place an O. It also sets the red and green colour and 
+		//runs the win function.
+		function box1button(){
+			if(board[0] != "O" && board[0] != "X"){
+				if(counter % 2 === 0){
+					board[0] = playerX;
+					counter ++;
+					document.getElementById("box1").innerHTML = playerX;
+					document.getElementById("box1").style.color = "red";
+					winCondition();
+				}
+				else{
+					board[0] = playerO;
+					counter ++;
+					document.getElementById("box1").innerHTML = playerO;
+					document.getElementById("box1").style.color = "green";
+					winCondition();
+				}
+			}
+		}
+		
+		function box2button(){
+			if(board[1] != "O" && board[1] != "X"){
+					if(counter % 2 === 0){
+						board[1] = playerX;
+						counter ++;
+						document.getElementById("box2").innerHTML = playerX;
+						document.getElementById("box2").style.color = "red";
+						winCondition();
+					}
+					else{
+						board[1] = playerO;
+						counter ++;
+						document.getElementById("box2").innerHTML = playerO;
+						document.getElementById("box2").style.color = "green";
+						winCondition();
+					}
+			}
+		}
+
+		function box3button(){
+			if(board[2] != "O" && board[2] != "X"){
+					if(counter % 2 === 0){
+						board[2] = playerX;
+						counter ++;
+						document.getElementById("box3").innerHTML = playerX;
+						document.getElementById("box3").style.color = "red";
+						winCondition();
+					}
+					else{
+						board[2] = playerO;
+						counter ++;
+						document.getElementById("box3").innerHTML = playerO;
+						document.getElementById("box3").style.color = "green";
+						winCondition();
+					}
+			}
+		}
+
+		function box4button(){
+			if(board[3] != "O" && board[3] != "X"){
+					if(counter % 2 === 0){
+						board[3] = playerX;
+						counter ++;
+						document.getElementById("box4").innerHTML = playerX;
+						document.getElementById("box4").style.color = "red";
+						winCondition();
+					}
+					else{
+						board[3] = playerO;
+						counter ++;
+						document.getElementById("box4").innerHTML = playerO;
+						document.getElementById("box4").style.color = "green";
+						winCondition();
+					}
+			}
+		}
+
+		function box5button(){
+			if(board[4] != "O" && board[4] != "X"){
+					if(counter % 2 === 0){
+						board[4] = playerX;
+						counter ++;
+						document.getElementById("box5").innerHTML = playerX;
+						document.getElementById("box5").style.color = "red";
+						winCondition();
+					}
+					else{
+						board[4] = playerO;
+						counter ++;
+						document.getElementById("box5").innerHTML = playerO;
+						document.getElementById("box5").style.color = "green";
+						winCondition();
+					}
+			}
+		}
+
+		function box6button(){
+			if(board[5] != "O" && board[5] != "X"){
+					if(counter % 2 === 0){
+						board[5] = playerX;
+						counter ++;
+						document.getElementById("box6").innerHTML = playerX;
+						document.getElementById("box6").style.color = "red";
+						winCondition();
+					}
+					else{
+						board[5] = playerO;
+						counter ++;
+						document.getElementById("box6").innerHTML = playerO;
+						document.getElementById("box6").style.color = "green";
+						winCondition();
+					}
+			}
+		}
+
+		function box7button(){
+			if(board[6] != "O" && board[6] != "X"){
+					if(counter % 2 === 0){
+						board[6] = playerX;
+						counter ++;
+						document.getElementById("box7").innerHTML = playerX;
+						document.getElementById("box7").style.color = "red";
+						winCondition();
+					}
+					else{
+						board[6] = playerO;
+						counter ++;
+						document.getElementById("box7").innerHTML = playerO;
+						document.getElementById("box7").style.color = "green";
+						winCondition();
+					}
+			}
+		}	
+		
+		function box8button(){
+			if(board[7] != "O" && board[7] != "X"){
+					if(counter % 2 === 0){
+						board[7] = playerX;
+						counter ++;
+						document.getElementById("box8").innerHTML = playerX;
+						document.getElementById("box8").style.color = "red";
+						winCondition();
+					}
+					else{
+						board[7] = playerO;
+						counter ++;
+						document.getElementById("box8").innerHTML = playerO;
+						document.getElementById("box8").style.color = "green";
+						winCondition();
+					}
+			}
+		}	
+		
+		function box9button(){
+			if(board[8] != "O" && board[8] != "X"){
+					if(counter % 2 === 0){
+						board[8] = playerX;
+						counter ++;
+						document.getElementById("box9").innerHTML = playerX;
+						document.getElementById("box9").style.color = "red";
+						winCondition();
+					}
+					else{
+						board[8] = playerO;
+						counter ++;
+						document.getElementById("box9").innerHTML = playerO;
+						document.getElementById("box9").style.color = "green";
+						winCondition();
+					}
+			}
+		}	
+		
+		//Win condition checks the array board. If any of the conditions are met then it will
+		//let the players know who has won and sets the winner boolean to true.
+		function winCondition() {
+		//Straight Line Wins
+			if(board[0] == playerO && board[1] == playerO && board[2] == playerO || board[0] == playerX && board[1] == playerX && board[2] == playerX){
+				if(board[0] == playerO){
+					document.getElementById("win").innerHTML = "Player O Wins";
+					winner = true;
+				}
+				else{
+					document.getElementById("win").innerHTML = "Player X Wins";
+					winner = true;
+				}
+				//The boxes assigned to this win condition will be turned yellow to indicate who won.
+				box1.style.backgroundColor="yellow";
+				box2.style.backgroundColor="yellow";
+				box3.style.backgroundColor="yellow";
+			}
+			
+			if(board[3] == playerO && board[4] == playerO && board[5] == playerO || board[3] == playerX && board[4] == playerX && board[5] == playerX){
+				if(board[3] == playerO){
+					document.getElementById("win").innerHTML = "Player O Wins";
+					winner = true;
+				}
+				else{
+					document.getElementById("win").innerHTML = "Player X Wins";
+					winner = true;
+				}
+				box4.style.backgroundColor="yellow";
+				box5.style.backgroundColor="yellow";
+				box6.style.backgroundColor="yellow";
+			}
+			
+			if(board[6] == playerO && board[7] == playerO && board[8] == playerO || board[6] == playerX && board[7] == playerX && board[8] == playerX){
+				if(board[6] == playerO){
+					document.getElementById("win").innerHTML = "Player O Wins";
+					winner = true;
+				}
+				else{
+					document.getElementById("win").innerHTML = "Player X Wins";
+					winner = true;
+				}
+				box7.style.backgroundColor="yellow";
+				box8.style.backgroundColor="yellow";
+				box9.style.backgroundColor="yellow";
+			}
+			
+			if(board[0] == playerO && board[3] == playerO && board[6] == playerO || board[0] == playerX && board[3] == playerX && board[6] == playerX){
+				if(board[0] == playerO){
+					document.getElementById("win").innerHTML = "Player O Wins";
+					winner = true;
+				}
+				else{
+					document.getElementById("win").innerHTML = "Player X Wins";
+					winner = true;
+				}
+				box1.style.backgroundColor="yellow";
+				box4.style.backgroundColor="yellow";
+				box7.style.backgroundColor="yellow";
+			}
+			
+			if(board[1] == playerO && board[4] == playerO && board[7] == playerO || board[1] == playerX && board[4] == playerX && board[7] == playerX){
+				if(board[1] == playerO){
+					document.getElementById("win").innerHTML = "Player O Wins";
+					winner = true;
+				}
+				else{
+					document.getElementById("win").innerHTML = "Player X Wins";
+					winner = true;
+				}
+				box2.style.backgroundColor="yellow";
+				box5.style.backgroundColor="yellow";
+				box8.style.backgroundColor="yellow";
+			}
+			
+			if(board[2] == playerO && board[5] == playerO && board[8] == playerO || board[2] == playerX && board[5] == playerX && board[8] == playerX){
+				if(board[2] == playerO){
+					document.getElementById("win").innerHTML = "Player O Wins";
+					winner = true;
+				}
+				else{
+					document.getElementById("win").innerHTML = "Player X Wins";
+					winner = true;
+				}
+				box3.style.backgroundColor="yellow";
+				box6.style.backgroundColor="yellow";
+				box9.style.backgroundColor="yellow";
+			}
+
+			//Diagonal Line Wins
+			if(board[0] == playerO && board[4] == playerO && board[8] == playerO || board[0] == playerX && board[4] == playerX && board[8] == playerX){
+				if(board[0] == playerO){
+					document.getElementById("win").innerHTML = "Player O Wins";
+					winner = true;
+				}
+				else{
+					document.getElementById("win").innerHTML = "Player X Wins";
+					winner = true;
+				}
+				//The boxes assigned to this win condition will be turned yellow to indicate who won.
+				box1.style.backgroundColor="yellow";
+				box5.style.backgroundColor="yellow";
+				box9.style.backgroundColor="yellow";
+			}
+			
+			if(board[2] == playerO && board[4] == playerO && board[6] == playerO || board[2] == playerX && board[4] == playerX && board[6] == playerX){
+				if(board[2] == playerO){
+					document.getElementById("win").innerHTML = "Player O Wins";
+					winner = true;
+				}
+				else{
+					document.getElementById("win").innerHTML = "Player X Wins";
+					winner = true;
+				}
+				box3.style.backgroundColor="yellow";
+				box5.style.backgroundColor="yellow";
+				box7.style.backgroundColor="yellow";
+			}
+			
+			//Draw condition is met when counter is equal to 9 and there is no winner.
+			if(counter == 9 && winner == false) {
+				document.getElementById("win").innerHTML = "Draw";
+			}
+			
+			//If there is a winner, this if statement stops new input from being entered.
+			if(winner == true){
+				document.getElementById("box1").style.pointerEvents = "none";
+				document.getElementById("box2").style.pointerEvents = "none";
+				document.getElementById("box3").style.pointerEvents = "none";
+				document.getElementById("box4").style.pointerEvents = "none";
+				document.getElementById("box5").style.pointerEvents = "none";
+				document.getElementById("box6").style.pointerEvents = "none";
+				document.getElementById("box7").style.pointerEvents = "none";
+				document.getElementById("box8").style.pointerEvents = "none";
+				document.getElementById("box9").style.pointerEvents = "none";
+			}
+		}
+		
+		function reset() {
+			//Resets the board array.
+			board = ["","","",
+					 "","","",
+					 "","",""];
+			
+			//Resets each box on the webpage.
+			document.getElementById("box1").innerHTML = "";
+			document.getElementById("box2").innerHTML = "";
+			document.getElementById("box3").innerHTML = "";
+			document.getElementById("box4").innerHTML = "";
+			document.getElementById("box5").innerHTML = "";
+			document.getElementById("box6").innerHTML = "";
+			document.getElementById("box7").innerHTML = "";
+			document.getElementById("box8").innerHTML = "";
+			document.getElementById("box9").innerHTML = "";
+			document.getElementById("win").innerHTML = "";
+			
+			//Changes the boxes on the board back to white.
+			box1.style.backgroundColor="white";
+			box2.style.backgroundColor="white";
+			box3.style.backgroundColor="white";
+			box4.style.backgroundColor="white";
+			box5.style.backgroundColor="white";
+			box6.style.backgroundColor="white";
+			box7.style.backgroundColor="white";
+			box8.style.backgroundColor="white";
+			box9.style.backgroundColor="white";
+			
+			//Allows each box to be pressed again for the start of a new game.
+			document.getElementById("box1").style.pointerEvents = "auto";
+			document.getElementById("box2").style.pointerEvents = "auto";
+			document.getElementById("box3").style.pointerEvents = "auto";
+			document.getElementById("box4").style.pointerEvents = "auto";
+			document.getElementById("box5").style.pointerEvents = "auto";
+			document.getElementById("box6").style.pointerEvents = "auto";
+			document.getElementById("box7").style.pointerEvents = "auto";
+			document.getElementById("box8").style.pointerEvents = "auto";
+			document.getElementById("box9").style.pointerEvents = "auto";
+				
+			//Sets the counter to 0 to start a new game.
+			counter = 0;
+			
+			//Sets the winner to false as it's a new game.
+			winner = false
+		}
+	</script>
+</html>

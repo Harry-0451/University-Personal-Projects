@@ -1,0 +1,1572 @@
+
+The status of all the towers at the start is as follows:
+Tower 1: []
+Tower 2: []
+Tower 3: []
+Tower 4: []
+Tower 5: []
+Tower 6: []
+Tower 7: []
+Tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Tower 9: []
+Tower 10: []
+
+Move: disc 1 from tower 8 to tower 6
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Destination tower 6: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+Destination tower 6: [1]
+
+Move: disc 2 from tower 8 to tower 5
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+Destination tower 5: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+Destination tower 5: [2]
+
+Move: disc 3 from tower 8 to tower 4
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+Destination tower 4: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+Destination tower 4: [3]
+
+Move: disc 4 from tower 8 to tower 3
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+Destination tower 3: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+Destination tower 3: [4]
+
+Move: disc 5 from tower 8 to tower 1
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+Destination tower 1: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+Destination tower 1: [5]
+
+Move: disc 6 from tower 8 to tower 2
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+Destination tower 2: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+Destination tower 2: [6]
+
+Move: disc 5 from tower 1 to tower 2
+Before the move:
+Source tower 1: [5]
+Destination tower 2: [6]
+After the move:
+Source tower 1: []
+Destination tower 2: [6, 5]
+
+Move: disc 4 from tower 3 to tower 2
+Before the move:
+Source tower 3: [4]
+Destination tower 2: [6, 5]
+After the move:
+Source tower 3: []
+Destination tower 2: [6, 5, 4]
+
+Move: disc 3 from tower 4 to tower 2
+Before the move:
+Source tower 4: [3]
+Destination tower 2: [6, 5, 4]
+After the move:
+Source tower 4: []
+Destination tower 2: [6, 5, 4, 3]
+
+Move: disc 2 from tower 5 to tower 2
+Before the move:
+Source tower 5: [2]
+Destination tower 2: [6, 5, 4, 3]
+After the move:
+Source tower 5: []
+Destination tower 2: [6, 5, 4, 3, 2]
+
+Move: disc 1 from tower 6 to tower 2
+Before the move:
+Source tower 6: [1]
+Destination tower 2: [6, 5, 4, 3, 2]
+After the move:
+Source tower 6: []
+Destination tower 2: [6, 5, 4, 3, 2, 1]
+
+Move: disc 7 from tower 8 to tower 10
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+Destination tower 10: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+Destination tower 10: [7]
+
+Move: disc 8 from tower 8 to tower 9
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+Destination tower 9: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+Destination tower 9: [8]
+
+Move: disc 9 from tower 8 to tower 7
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+Destination tower 7: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+Destination tower 7: [9]
+
+Move: disc 10 from tower 8 to tower 6
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+Destination tower 6: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+Destination tower 6: [10]
+
+Move: disc 11 from tower 8 to tower 5
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+Destination tower 5: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+Destination tower 5: [11]
+
+Move: disc 12 from tower 8 to tower 4
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+Destination tower 4: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+Destination tower 4: [12]
+
+Move: disc 13 from tower 8 to tower 3
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+Destination tower 3: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14]
+Destination tower 3: [13]
+
+Move: disc 14 from tower 8 to tower 1
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14]
+Destination tower 1: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
+Destination tower 1: [14]
+
+Move: disc 13 from tower 3 to tower 1
+Before the move:
+Source tower 3: [13]
+Destination tower 1: [14]
+After the move:
+Source tower 3: []
+Destination tower 1: [14, 13]
+
+Move: disc 12 from tower 4 to tower 1
+Before the move:
+Source tower 4: [12]
+Destination tower 1: [14, 13]
+After the move:
+Source tower 4: []
+Destination tower 1: [14, 13, 12]
+
+Move: disc 11 from tower 5 to tower 1
+Before the move:
+Source tower 5: [11]
+Destination tower 1: [14, 13, 12]
+After the move:
+Source tower 5: []
+Destination tower 1: [14, 13, 12, 11]
+
+Move: disc 10 from tower 6 to tower 1
+Before the move:
+Source tower 6: [10]
+Destination tower 1: [14, 13, 12, 11]
+After the move:
+Source tower 6: []
+Destination tower 1: [14, 13, 12, 11, 10]
+
+Move: disc 9 from tower 7 to tower 1
+Before the move:
+Source tower 7: [9]
+Destination tower 1: [14, 13, 12, 11, 10]
+After the move:
+Source tower 7: []
+Destination tower 1: [14, 13, 12, 11, 10, 9]
+
+Move: disc 8 from tower 9 to tower 1
+Before the move:
+Source tower 9: [8]
+Destination tower 1: [14, 13, 12, 11, 10, 9]
+After the move:
+Source tower 9: []
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8]
+
+Move: disc 7 from tower 10 to tower 1
+Before the move:
+Source tower 10: [7]
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8]
+After the move:
+Source tower 10: []
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7]
+
+Move: disc 1 from tower 2 to tower 7
+Before the move:
+Source tower 2: [6, 5, 4, 3, 2, 1]
+Destination tower 7: []
+After the move:
+Source tower 2: [6, 5, 4, 3, 2]
+Destination tower 7: [1]
+
+Move: disc 2 from tower 2 to tower 6
+Before the move:
+Source tower 2: [6, 5, 4, 3, 2]
+Destination tower 6: []
+After the move:
+Source tower 2: [6, 5, 4, 3]
+Destination tower 6: [2]
+
+Move: disc 3 from tower 2 to tower 5
+Before the move:
+Source tower 2: [6, 5, 4, 3]
+Destination tower 5: []
+After the move:
+Source tower 2: [6, 5, 4]
+Destination tower 5: [3]
+
+Move: disc 4 from tower 2 to tower 4
+Before the move:
+Source tower 2: [6, 5, 4]
+Destination tower 4: []
+After the move:
+Source tower 2: [6, 5]
+Destination tower 4: [4]
+
+Move: disc 5 from tower 2 to tower 3
+Before the move:
+Source tower 2: [6, 5]
+Destination tower 3: []
+After the move:
+Source tower 2: [6]
+Destination tower 3: [5]
+
+Move: disc 6 from tower 2 to tower 1
+Before the move:
+Source tower 2: [6]
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7]
+After the move:
+Source tower 2: []
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6]
+
+Move: disc 5 from tower 3 to tower 1
+Before the move:
+Source tower 3: [5]
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6]
+After the move:
+Source tower 3: []
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+
+Move: disc 4 from tower 4 to tower 1
+Before the move:
+Source tower 4: [4]
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+After the move:
+Source tower 4: []
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+
+Move: disc 3 from tower 5 to tower 1
+Before the move:
+Source tower 5: [3]
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+After the move:
+Source tower 5: []
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+
+Move: disc 2 from tower 6 to tower 1
+Before the move:
+Source tower 6: [2]
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+After the move:
+Source tower 6: []
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+
+Move: disc 1 from tower 7 to tower 1
+Before the move:
+Source tower 7: [1]
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+After the move:
+Source tower 7: []
+Destination tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+Move: disc 15 from tower 8 to tower 10
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
+Destination tower 10: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16]
+Destination tower 10: [15]
+
+Move: disc 16 from tower 8 to tower 9
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16]
+Destination tower 9: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17]
+Destination tower 9: [16]
+
+Move: disc 17 from tower 8 to tower 7
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17]
+Destination tower 7: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18]
+Destination tower 7: [17]
+
+Move: disc 18 from tower 8 to tower 6
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18]
+Destination tower 6: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19]
+Destination tower 6: [18]
+
+Move: disc 19 from tower 8 to tower 5
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19]
+Destination tower 5: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20]
+Destination tower 5: [19]
+
+Move: disc 20 from tower 8 to tower 4
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20]
+Destination tower 4: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21]
+Destination tower 4: [20]
+
+Move: disc 21 from tower 8 to tower 3
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21]
+Destination tower 3: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22]
+Destination tower 3: [21]
+
+Move: disc 22 from tower 8 to tower 2
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 22]
+Destination tower 2: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23]
+Destination tower 2: [22]
+
+Move: disc 21 from tower 3 to tower 2
+Before the move:
+Source tower 3: [21]
+Destination tower 2: [22]
+After the move:
+Source tower 3: []
+Destination tower 2: [22, 21]
+
+Move: disc 20 from tower 4 to tower 2
+Before the move:
+Source tower 4: [20]
+Destination tower 2: [22, 21]
+After the move:
+Source tower 4: []
+Destination tower 2: [22, 21, 20]
+
+Move: disc 19 from tower 5 to tower 2
+Before the move:
+Source tower 5: [19]
+Destination tower 2: [22, 21, 20]
+After the move:
+Source tower 5: []
+Destination tower 2: [22, 21, 20, 19]
+
+Move: disc 18 from tower 6 to tower 2
+Before the move:
+Source tower 6: [18]
+Destination tower 2: [22, 21, 20, 19]
+After the move:
+Source tower 6: []
+Destination tower 2: [22, 21, 20, 19, 18]
+
+Move: disc 17 from tower 7 to tower 2
+Before the move:
+Source tower 7: [17]
+Destination tower 2: [22, 21, 20, 19, 18]
+After the move:
+Source tower 7: []
+Destination tower 2: [22, 21, 20, 19, 18, 17]
+
+Move: disc 16 from tower 9 to tower 2
+Before the move:
+Source tower 9: [16]
+Destination tower 2: [22, 21, 20, 19, 18, 17]
+After the move:
+Source tower 9: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16]
+
+Move: disc 15 from tower 10 to tower 2
+Before the move:
+Source tower 10: [15]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16]
+After the move:
+Source tower 10: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15]
+
+Move: disc 1 from tower 1 to tower 7
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Destination tower 7: []
+After the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+Destination tower 7: [1]
+
+Move: disc 2 from tower 1 to tower 6
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+Destination tower 6: []
+After the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+Destination tower 6: [2]
+
+Move: disc 3 from tower 1 to tower 5
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+Destination tower 5: []
+After the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+Destination tower 5: [3]
+
+Move: disc 4 from tower 1 to tower 4
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+Destination tower 4: []
+After the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+Destination tower 4: [4]
+
+Move: disc 5 from tower 1 to tower 2
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15]
+After the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 5]
+
+Move: disc 6 from tower 1 to tower 3
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7, 6]
+Destination tower 3: []
+After the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7]
+Destination tower 3: [6]
+
+Move: disc 5 from tower 2 to tower 3
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 5]
+Destination tower 3: [6]
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15]
+Destination tower 3: [6, 5]
+
+Move: disc 4 from tower 4 to tower 3
+Before the move:
+Source tower 4: [4]
+Destination tower 3: [6, 5]
+After the move:
+Source tower 4: []
+Destination tower 3: [6, 5, 4]
+
+Move: disc 3 from tower 5 to tower 3
+Before the move:
+Source tower 5: [3]
+Destination tower 3: [6, 5, 4]
+After the move:
+Source tower 5: []
+Destination tower 3: [6, 5, 4, 3]
+
+Move: disc 2 from tower 6 to tower 3
+Before the move:
+Source tower 6: [2]
+Destination tower 3: [6, 5, 4, 3]
+After the move:
+Source tower 6: []
+Destination tower 3: [6, 5, 4, 3, 2]
+
+Move: disc 1 from tower 7 to tower 3
+Before the move:
+Source tower 7: [1]
+Destination tower 3: [6, 5, 4, 3, 2]
+After the move:
+Source tower 7: []
+Destination tower 3: [6, 5, 4, 3, 2, 1]
+
+Move: disc 7 from tower 1 to tower 10
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8, 7]
+Destination tower 10: []
+After the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8]
+Destination tower 10: [7]
+
+Move: disc 8 from tower 1 to tower 9
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10, 9, 8]
+Destination tower 9: []
+After the move:
+Source tower 1: [14, 13, 12, 11, 10, 9]
+Destination tower 9: [8]
+
+Move: disc 9 from tower 1 to tower 8
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10, 9]
+Destination tower 8: [30, 29, 28, 27, 26, 25, 24, 23]
+After the move:
+Source tower 1: [14, 13, 12, 11, 10]
+Destination tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 9]
+
+Move: disc 10 from tower 1 to tower 7
+Before the move:
+Source tower 1: [14, 13, 12, 11, 10]
+Destination tower 7: []
+After the move:
+Source tower 1: [14, 13, 12, 11]
+Destination tower 7: [10]
+
+Move: disc 11 from tower 1 to tower 6
+Before the move:
+Source tower 1: [14, 13, 12, 11]
+Destination tower 6: []
+After the move:
+Source tower 1: [14, 13, 12]
+Destination tower 6: [11]
+
+Move: disc 12 from tower 1 to tower 5
+Before the move:
+Source tower 1: [14, 13, 12]
+Destination tower 5: []
+After the move:
+Source tower 1: [14, 13]
+Destination tower 5: [12]
+
+Move: disc 13 from tower 1 to tower 4
+Before the move:
+Source tower 1: [14, 13]
+Destination tower 4: []
+After the move:
+Source tower 1: [14]
+Destination tower 4: [13]
+
+Move: disc 14 from tower 1 to tower 2
+Before the move:
+Source tower 1: [14]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15]
+After the move:
+Source tower 1: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14]
+
+Move: disc 13 from tower 4 to tower 2
+Before the move:
+Source tower 4: [13]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14]
+After the move:
+Source tower 4: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+
+Move: disc 12 from tower 5 to tower 2
+Before the move:
+Source tower 5: [12]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+After the move:
+Source tower 5: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+
+Move: disc 11 from tower 6 to tower 2
+Before the move:
+Source tower 6: [11]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+After the move:
+Source tower 6: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+
+Move: disc 10 from tower 7 to tower 2
+Before the move:
+Source tower 7: [10]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+After the move:
+Source tower 7: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+
+Move: disc 9 from tower 8 to tower 2
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23, 9]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+
+Move: disc 8 from tower 9 to tower 2
+Before the move:
+Source tower 9: [8]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+After the move:
+Source tower 9: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+
+Move: disc 7 from tower 10 to tower 2
+Before the move:
+Source tower 10: [7]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+After the move:
+Source tower 10: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+
+Move: disc 1 from tower 3 to tower 7
+Before the move:
+Source tower 3: [6, 5, 4, 3, 2, 1]
+Destination tower 7: []
+After the move:
+Source tower 3: [6, 5, 4, 3, 2]
+Destination tower 7: [1]
+
+Move: disc 2 from tower 3 to tower 6
+Before the move:
+Source tower 3: [6, 5, 4, 3, 2]
+Destination tower 6: []
+After the move:
+Source tower 3: [6, 5, 4, 3]
+Destination tower 6: [2]
+
+Move: disc 3 from tower 3 to tower 5
+Before the move:
+Source tower 3: [6, 5, 4, 3]
+Destination tower 5: []
+After the move:
+Source tower 3: [6, 5, 4]
+Destination tower 5: [3]
+
+Move: disc 4 from tower 3 to tower 4
+Before the move:
+Source tower 3: [6, 5, 4]
+Destination tower 4: []
+After the move:
+Source tower 3: [6, 5]
+Destination tower 4: [4]
+
+Move: disc 5 from tower 3 to tower 1
+Before the move:
+Source tower 3: [6, 5]
+Destination tower 1: []
+After the move:
+Source tower 3: [6]
+Destination tower 1: [5]
+
+Move: disc 6 from tower 3 to tower 2
+Before the move:
+Source tower 3: [6]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+After the move:
+Source tower 3: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+
+Move: disc 5 from tower 1 to tower 2
+Before the move:
+Source tower 1: [5]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+After the move:
+Source tower 1: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+
+Move: disc 4 from tower 4 to tower 2
+Before the move:
+Source tower 4: [4]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+After the move:
+Source tower 4: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+
+Move: disc 3 from tower 5 to tower 2
+Before the move:
+Source tower 5: [3]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+After the move:
+Source tower 5: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+
+Move: disc 2 from tower 6 to tower 2
+Before the move:
+Source tower 6: [2]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+After the move:
+Source tower 6: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+
+Move: disc 1 from tower 7 to tower 2
+Before the move:
+Source tower 7: [1]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+After the move:
+Source tower 7: []
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+Move: disc 23 from tower 8 to tower 10
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24, 23]
+Destination tower 10: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24]
+Destination tower 10: [23]
+
+Move: disc 24 from tower 8 to tower 9
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25, 24]
+Destination tower 9: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26, 25]
+Destination tower 9: [24]
+
+Move: disc 25 from tower 8 to tower 7
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26, 25]
+Destination tower 7: []
+After the move:
+Source tower 8: [30, 29, 28, 27, 26]
+Destination tower 7: [25]
+
+Move: disc 26 from tower 8 to tower 6
+Before the move:
+Source tower 8: [30, 29, 28, 27, 26]
+Destination tower 6: []
+After the move:
+Source tower 8: [30, 29, 28, 27]
+Destination tower 6: [26]
+
+Move: disc 27 from tower 8 to tower 5
+Before the move:
+Source tower 8: [30, 29, 28, 27]
+Destination tower 5: []
+After the move:
+Source tower 8: [30, 29, 28]
+Destination tower 5: [27]
+
+Move: disc 28 from tower 8 to tower 4
+Before the move:
+Source tower 8: [30, 29, 28]
+Destination tower 4: []
+After the move:
+Source tower 8: [30, 29]
+Destination tower 4: [28]
+
+Move: disc 29 from tower 8 to tower 3
+Before the move:
+Source tower 8: [30, 29]
+Destination tower 3: []
+After the move:
+Source tower 8: [30]
+Destination tower 3: [29]
+
+Move: disc 30 from tower 8 to tower 1
+Before the move:
+Source tower 8: [30]
+Destination tower 1: []
+After the move:
+Source tower 8: []
+Destination tower 1: [30]
+
+Move: disc 29 from tower 3 to tower 1
+Before the move:
+Source tower 3: [29]
+Destination tower 1: [30]
+After the move:
+Source tower 3: []
+Destination tower 1: [30, 29]
+
+Move: disc 28 from tower 4 to tower 1
+Before the move:
+Source tower 4: [28]
+Destination tower 1: [30, 29]
+After the move:
+Source tower 4: []
+Destination tower 1: [30, 29, 28]
+
+Move: disc 27 from tower 5 to tower 1
+Before the move:
+Source tower 5: [27]
+Destination tower 1: [30, 29, 28]
+After the move:
+Source tower 5: []
+Destination tower 1: [30, 29, 28, 27]
+
+Move: disc 26 from tower 6 to tower 1
+Before the move:
+Source tower 6: [26]
+Destination tower 1: [30, 29, 28, 27]
+After the move:
+Source tower 6: []
+Destination tower 1: [30, 29, 28, 27, 26]
+
+Move: disc 25 from tower 7 to tower 1
+Before the move:
+Source tower 7: [25]
+Destination tower 1: [30, 29, 28, 27, 26]
+After the move:
+Source tower 7: []
+Destination tower 1: [30, 29, 28, 27, 26, 25]
+
+Move: disc 24 from tower 9 to tower 1
+Before the move:
+Source tower 9: [24]
+Destination tower 1: [30, 29, 28, 27, 26, 25]
+After the move:
+Source tower 9: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24]
+
+Move: disc 23 from tower 10 to tower 1
+Before the move:
+Source tower 10: [23]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24]
+After the move:
+Source tower 10: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23]
+
+Move: disc 1 from tower 2 to tower 7
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Destination tower 7: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+Destination tower 7: [1]
+
+Move: disc 2 from tower 2 to tower 6
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+Destination tower 6: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+Destination tower 6: [2]
+
+Move: disc 3 from tower 2 to tower 5
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+Destination tower 5: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+Destination tower 5: [3]
+
+Move: disc 4 from tower 2 to tower 4
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+Destination tower 4: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+Destination tower 4: [4]
+
+Move: disc 5 from tower 2 to tower 3
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+Destination tower 3: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+Destination tower 3: [5]
+
+Move: disc 6 from tower 2 to tower 1
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23]
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6]
+
+Move: disc 5 from tower 3 to tower 1
+Before the move:
+Source tower 3: [5]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6]
+After the move:
+Source tower 3: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5]
+
+Move: disc 4 from tower 4 to tower 1
+Before the move:
+Source tower 4: [4]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5]
+After the move:
+Source tower 4: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4]
+
+Move: disc 3 from tower 5 to tower 1
+Before the move:
+Source tower 5: [3]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4]
+After the move:
+Source tower 5: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3]
+
+Move: disc 2 from tower 6 to tower 1
+Before the move:
+Source tower 6: [2]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3]
+After the move:
+Source tower 6: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3, 2]
+
+Move: disc 1 from tower 7 to tower 1
+Before the move:
+Source tower 7: [1]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3, 2]
+After the move:
+Source tower 7: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3, 2, 1]
+
+Move: disc 7 from tower 2 to tower 10
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+Destination tower 10: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+Destination tower 10: [7]
+
+Move: disc 8 from tower 2 to tower 9
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+Destination tower 9: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+Destination tower 9: [8]
+
+Move: disc 9 from tower 2 to tower 8
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+Destination tower 8: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+Destination tower 8: [9]
+
+Move: disc 10 from tower 2 to tower 7
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+Destination tower 7: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+Destination tower 7: [10]
+
+Move: disc 11 from tower 2 to tower 6
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+Destination tower 6: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+Destination tower 6: [11]
+
+Move: disc 12 from tower 2 to tower 5
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+Destination tower 5: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+Destination tower 5: [12]
+
+Move: disc 13 from tower 2 to tower 4
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+Destination tower 4: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14]
+Destination tower 4: [13]
+
+Move: disc 14 from tower 2 to tower 3
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 14]
+Destination tower 3: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15]
+Destination tower 3: [14]
+
+Move: disc 13 from tower 4 to tower 3
+Before the move:
+Source tower 4: [13]
+Destination tower 3: [14]
+After the move:
+Source tower 4: []
+Destination tower 3: [14, 13]
+
+Move: disc 12 from tower 5 to tower 3
+Before the move:
+Source tower 5: [12]
+Destination tower 3: [14, 13]
+After the move:
+Source tower 5: []
+Destination tower 3: [14, 13, 12]
+
+Move: disc 11 from tower 6 to tower 3
+Before the move:
+Source tower 6: [11]
+Destination tower 3: [14, 13, 12]
+After the move:
+Source tower 6: []
+Destination tower 3: [14, 13, 12, 11]
+
+Move: disc 10 from tower 7 to tower 3
+Before the move:
+Source tower 7: [10]
+Destination tower 3: [14, 13, 12, 11]
+After the move:
+Source tower 7: []
+Destination tower 3: [14, 13, 12, 11, 10]
+
+Move: disc 9 from tower 8 to tower 3
+Before the move:
+Source tower 8: [9]
+Destination tower 3: [14, 13, 12, 11, 10]
+After the move:
+Source tower 8: []
+Destination tower 3: [14, 13, 12, 11, 10, 9]
+
+Move: disc 8 from tower 9 to tower 3
+Before the move:
+Source tower 9: [8]
+Destination tower 3: [14, 13, 12, 11, 10, 9]
+After the move:
+Source tower 9: []
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8]
+
+Move: disc 7 from tower 10 to tower 3
+Before the move:
+Source tower 10: [7]
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8]
+After the move:
+Source tower 10: []
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7]
+
+Move: disc 1 from tower 1 to tower 7
+Before the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3, 2, 1]
+Destination tower 7: []
+After the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3, 2]
+Destination tower 7: [1]
+
+Move: disc 2 from tower 1 to tower 6
+Before the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3, 2]
+Destination tower 6: []
+After the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3]
+Destination tower 6: [2]
+
+Move: disc 3 from tower 1 to tower 5
+Before the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4, 3]
+Destination tower 5: []
+After the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4]
+Destination tower 5: [3]
+
+Move: disc 4 from tower 1 to tower 4
+Before the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5, 4]
+Destination tower 4: []
+After the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5]
+Destination tower 4: [4]
+
+Move: disc 5 from tower 1 to tower 2
+Before the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6, 5]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15]
+After the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6]
+Destination tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 5]
+
+Move: disc 6 from tower 1 to tower 3
+Before the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 6]
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7]
+After the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23]
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6]
+
+Move: disc 5 from tower 2 to tower 3
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15, 5]
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6]
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15]
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+
+Move: disc 4 from tower 4 to tower 3
+Before the move:
+Source tower 4: [4]
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+After the move:
+Source tower 4: []
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+
+Move: disc 3 from tower 5 to tower 3
+Before the move:
+Source tower 5: [3]
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+After the move:
+Source tower 5: []
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+
+Move: disc 2 from tower 6 to tower 3
+Before the move:
+Source tower 6: [2]
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+After the move:
+Source tower 6: []
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+
+Move: disc 1 from tower 7 to tower 3
+Before the move:
+Source tower 7: [1]
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+After the move:
+Source tower 7: []
+Destination tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+Move: disc 15 from tower 2 to tower 10
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16, 15]
+Destination tower 10: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16]
+Destination tower 10: [15]
+
+Move: disc 16 from tower 2 to tower 9
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17, 16]
+Destination tower 9: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18, 17]
+Destination tower 9: [16]
+
+Move: disc 17 from tower 2 to tower 8
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18, 17]
+Destination tower 8: []
+After the move:
+Source tower 2: [22, 21, 20, 19, 18]
+Destination tower 8: [17]
+
+Move: disc 18 from tower 2 to tower 7
+Before the move:
+Source tower 2: [22, 21, 20, 19, 18]
+Destination tower 7: []
+After the move:
+Source tower 2: [22, 21, 20, 19]
+Destination tower 7: [18]
+
+Move: disc 19 from tower 2 to tower 6
+Before the move:
+Source tower 2: [22, 21, 20, 19]
+Destination tower 6: []
+After the move:
+Source tower 2: [22, 21, 20]
+Destination tower 6: [19]
+
+Move: disc 20 from tower 2 to tower 5
+Before the move:
+Source tower 2: [22, 21, 20]
+Destination tower 5: []
+After the move:
+Source tower 2: [22, 21]
+Destination tower 5: [20]
+
+Move: disc 21 from tower 2 to tower 4
+Before the move:
+Source tower 2: [22, 21]
+Destination tower 4: []
+After the move:
+Source tower 2: [22]
+Destination tower 4: [21]
+
+Move: disc 22 from tower 2 to tower 1
+Before the move:
+Source tower 2: [22]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23]
+After the move:
+Source tower 2: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22]
+
+Move: disc 21 from tower 4 to tower 1
+Before the move:
+Source tower 4: [21]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22]
+After the move:
+Source tower 4: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21]
+
+Move: disc 20 from tower 5 to tower 1
+Before the move:
+Source tower 5: [20]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21]
+After the move:
+Source tower 5: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20]
+
+Move: disc 19 from tower 6 to tower 1
+Before the move:
+Source tower 6: [19]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20]
+After the move:
+Source tower 6: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19]
+
+Move: disc 18 from tower 7 to tower 1
+Before the move:
+Source tower 7: [18]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19]
+After the move:
+Source tower 7: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18]
+
+Move: disc 17 from tower 8 to tower 1
+Before the move:
+Source tower 8: [17]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18]
+After the move:
+Source tower 8: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17]
+
+Move: disc 16 from tower 9 to tower 1
+Before the move:
+Source tower 9: [16]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17]
+After the move:
+Source tower 9: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16]
+
+Move: disc 15 from tower 10 to tower 1
+Before the move:
+Source tower 10: [15]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16]
+After the move:
+Source tower 10: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
+
+Move: disc 1 from tower 3 to tower 7
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Destination tower 7: []
+After the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+Destination tower 7: [1]
+
+Move: disc 2 from tower 3 to tower 6
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+Destination tower 6: []
+After the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+Destination tower 6: [2]
+
+Move: disc 3 from tower 3 to tower 5
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+Destination tower 5: []
+After the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+Destination tower 5: [3]
+
+Move: disc 4 from tower 3 to tower 4
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+Destination tower 4: []
+After the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+Destination tower 4: [4]
+
+Move: disc 5 from tower 3 to tower 1
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
+After the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 5]
+
+Move: disc 6 from tower 3 to tower 2
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7, 6]
+Destination tower 2: []
+After the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7]
+Destination tower 2: [6]
+
+Move: disc 5 from tower 1 to tower 2
+Before the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 5]
+Destination tower 2: [6]
+After the move:
+Source tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
+Destination tower 2: [6, 5]
+
+Move: disc 4 from tower 4 to tower 2
+Before the move:
+Source tower 4: [4]
+Destination tower 2: [6, 5]
+After the move:
+Source tower 4: []
+Destination tower 2: [6, 5, 4]
+
+Move: disc 3 from tower 5 to tower 2
+Before the move:
+Source tower 5: [3]
+Destination tower 2: [6, 5, 4]
+After the move:
+Source tower 5: []
+Destination tower 2: [6, 5, 4, 3]
+
+Move: disc 2 from tower 6 to tower 2
+Before the move:
+Source tower 6: [2]
+Destination tower 2: [6, 5, 4, 3]
+After the move:
+Source tower 6: []
+Destination tower 2: [6, 5, 4, 3, 2]
+
+Move: disc 1 from tower 7 to tower 2
+Before the move:
+Source tower 7: [1]
+Destination tower 2: [6, 5, 4, 3, 2]
+After the move:
+Source tower 7: []
+Destination tower 2: [6, 5, 4, 3, 2, 1]
+
+Move: disc 7 from tower 3 to tower 10
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8, 7]
+Destination tower 10: []
+After the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8]
+Destination tower 10: [7]
+
+Move: disc 8 from tower 3 to tower 9
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10, 9, 8]
+Destination tower 9: []
+After the move:
+Source tower 3: [14, 13, 12, 11, 10, 9]
+Destination tower 9: [8]
+
+Move: disc 9 from tower 3 to tower 8
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10, 9]
+Destination tower 8: []
+After the move:
+Source tower 3: [14, 13, 12, 11, 10]
+Destination tower 8: [9]
+
+Move: disc 10 from tower 3 to tower 7
+Before the move:
+Source tower 3: [14, 13, 12, 11, 10]
+Destination tower 7: []
+After the move:
+Source tower 3: [14, 13, 12, 11]
+Destination tower 7: [10]
+
+Move: disc 11 from tower 3 to tower 6
+Before the move:
+Source tower 3: [14, 13, 12, 11]
+Destination tower 6: []
+After the move:
+Source tower 3: [14, 13, 12]
+Destination tower 6: [11]
+
+Move: disc 12 from tower 3 to tower 5
+Before the move:
+Source tower 3: [14, 13, 12]
+Destination tower 5: []
+After the move:
+Source tower 3: [14, 13]
+Destination tower 5: [12]
+
+Move: disc 13 from tower 3 to tower 4
+Before the move:
+Source tower 3: [14, 13]
+Destination tower 4: []
+After the move:
+Source tower 3: [14]
+Destination tower 4: [13]
+
+Move: disc 14 from tower 3 to tower 1
+Before the move:
+Source tower 3: [14]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
+After the move:
+Source tower 3: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14]
+
+Move: disc 13 from tower 4 to tower 1
+Before the move:
+Source tower 4: [13]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14]
+After the move:
+Source tower 4: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+
+Move: disc 12 from tower 5 to tower 1
+Before the move:
+Source tower 5: [12]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+After the move:
+Source tower 5: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+
+Move: disc 11 from tower 6 to tower 1
+Before the move:
+Source tower 6: [11]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+After the move:
+Source tower 6: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+
+Move: disc 10 from tower 7 to tower 1
+Before the move:
+Source tower 7: [10]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+After the move:
+Source tower 7: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+
+Move: disc 9 from tower 8 to tower 1
+Before the move:
+Source tower 8: [9]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+After the move:
+Source tower 8: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+
+Move: disc 8 from tower 9 to tower 1
+Before the move:
+Source tower 9: [8]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+After the move:
+Source tower 9: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+
+Move: disc 7 from tower 10 to tower 1
+Before the move:
+Source tower 10: [7]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+After the move:
+Source tower 10: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+
+Move: disc 1 from tower 2 to tower 7
+Before the move:
+Source tower 2: [6, 5, 4, 3, 2, 1]
+Destination tower 7: []
+After the move:
+Source tower 2: [6, 5, 4, 3, 2]
+Destination tower 7: [1]
+
+Move: disc 2 from tower 2 to tower 6
+Before the move:
+Source tower 2: [6, 5, 4, 3, 2]
+Destination tower 6: []
+After the move:
+Source tower 2: [6, 5, 4, 3]
+Destination tower 6: [2]
+
+Move: disc 3 from tower 2 to tower 5
+Before the move:
+Source tower 2: [6, 5, 4, 3]
+Destination tower 5: []
+After the move:
+Source tower 2: [6, 5, 4]
+Destination tower 5: [3]
+
+Move: disc 4 from tower 2 to tower 4
+Before the move:
+Source tower 2: [6, 5, 4]
+Destination tower 4: []
+After the move:
+Source tower 2: [6, 5]
+Destination tower 4: [4]
+
+Move: disc 5 from tower 2 to tower 3
+Before the move:
+Source tower 2: [6, 5]
+Destination tower 3: []
+After the move:
+Source tower 2: [6]
+Destination tower 3: [5]
+
+Move: disc 6 from tower 2 to tower 1
+Before the move:
+Source tower 2: [6]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+After the move:
+Source tower 2: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+
+Move: disc 5 from tower 3 to tower 1
+Before the move:
+Source tower 3: [5]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+After the move:
+Source tower 3: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+
+Move: disc 4 from tower 4 to tower 1
+Before the move:
+Source tower 4: [4]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+After the move:
+Source tower 4: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+
+Move: disc 3 from tower 5 to tower 1
+Before the move:
+Source tower 5: [3]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4]
+After the move:
+Source tower 5: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+
+Move: disc 2 from tower 6 to tower 1
+Before the move:
+Source tower 6: [2]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3]
+After the move:
+Source tower 6: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+
+Move: disc 1 from tower 7 to tower 1
+Before the move:
+Source tower 7: [1]
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+After the move:
+Source tower 7: []
+Destination tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+The status of all the towers is as follows:
+Tower 1: [30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Tower 2: []
+Tower 3: []
+Tower 4: []
+Tower 5: []
+Tower 6: []
+Tower 7: []
+Tower 8: []
+Tower 9: []
+Tower 10: []
+
+The sequence of moves is correct.
+
+

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 1 - Question 1</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Assignment1 Question1">
+		<meta name="author" content="Harry Hacker">
+	</head>
+	<body>
+		<!--Creating a new form for users to input their details.-->
+		<form>
+			<!--Creating labels and inputs so the user can fill out the form knowing what field is what.-->
+			<label for="name">Name:</label><br>
+			<input type="text" id="name" name="name"><br>
+			<label for="name">Age:</label><br>
+			<input type="text" id="age" name="age"><br>
+			<label for="name">Height:</label><br>
+			<!--Drop down menu to pick the users height in feed and inches.-->
+			<select id = "feet">
+				<option value = "4">4′</option>
+				<option value = "5">5′</option>
+				<option value = "6">6′</option>
+			</select>
+			<select id = "inches">
+				<option value = "0">0′′</option>
+				<option value = "1">1′′</option>
+				<option value = "2">2′′</option>
+				<option value = "3">3′′</option>
+				<option value = "4">4′′</option>
+				<option value = "5">5′′</option>
+				<option value = "6">6′′</option>
+				<option value = "7">7′′</option>
+				<option value = "8">8′′</option>
+				<option value = "9">9′′</option>
+				<option value = "10">10′′</option>
+				<option value = "11">11′′</option>
+			</select><br>
+			<!--Creates a date input from the user within the year 2020.-->
+			<label for="name">Date starting:</label><br>
+			<input type="date" id="start" name="trip-start" min="2020-01-01" max="2020-12-31">
+		</form>
+		<!--Buttons that create a new row in the table, or removes the table from the webpage.-->
+		<button type="button" id="reset" onclick="remove()">Reset</button>
+		<button type="button" id="display" onclick="createRow()">Display</button>
+		
+		<!--This creates a heading for each row to be labeled under. With a caption depicting what the table is for.-->
+		<table id="membership">
+		
+			<caption>Registered users for gym membership.</caption>
+		  
+			<header>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Height</th>
+				<th>Date Starting</th>
+				<th>Delete Row</th>
+			</header>
+			
+		
+		</table><br>
+		<!--A div acting as a caption to tell the user how many rows have been inputted.-->
+		<div id="captionRow">There are currently 0 rows.</div>
+	</body>
+	<style>
+		.title {
+		background: #bdbdd5;
+	}
+		
+		#captionRow{
+			text-align: center;
+		}
+		
+	#membership {
+		background:#acaccb;
+		border-spacing:5px;
+		ont-size: 12pt;
+		width:90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: center;
+		border-collapse: collapse;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	
+	#membership th, td {
+		border: solid 3px;
+		padding: 10px;
+		vertical-align: center;
+	}
+	
+	#membership th {
+		background:#c9796a;
+	}
+	
+	#membership tr:nth-child(even) {
+		background-color: #cdcddf;
+	}
+	
+	#membership tr:nth-child(even) td.title {
+		background-color: #7a7aab;	
+	}
+	</style>
+	<script>
+		//The form is set to blank at the beginning of the page opening, the amount of rows there are in the table is also set to 0.
+		settingForm()
+		var currentRows = 0;
+		
+		//This function removes all of the elements inside the table. As well as sets the caption back to "There is currently 0 rows".
+		function remove(){
+			settingForm()
+			
+			var elements = document.getElementsByClassName('record');
+			while(elements[0]) {
+				elements[0].parentNode.removeChild(elements[0]);
+				currentRows -= 1;
+			}
+			document.getElementById("captionRow").innerHTML = "There is currently " + currentRows + " rows.";
+		}
+		
+		//This function checks the validation if each of the user's form inputs.
+		function validation(){
+			//This take the name value and checks to see if something has been entered, if not an alert is sent back and returned false.
+			var y = document.getElementById("name").value;
+			if (y == ""){
+				alert("Must input name.");
+				return false;
+			} 
+			else {
+				
+			//Otherwise if the age variable inputted is not between 18 and 60 or isnt a number, then an alert is passed back and returned false.
+			//The next else statement checks to make sure that the year is within 2020 by comparing the string data formats.
+				var x = document.getElementById("age").value;
+				if (isNaN(x) || x < 18 || x > 60) {
+					alert("Must be between 18 and 60 years old.");
+					return false;
+				} 
+				else {
+				
+					//
+					var min = "2020-01-01";
+					var max =  "2020-12-31";
+					var startDate = document.getElementById("start").value;
+					
+					if(startDate > min && startDate < max){
+						return true;
+					} 
+					else {
+						alert("Must be in the year 2020.");
+						return false;
+					}
+				}
+			}
+		}
+		
+		//This function deletes the current row of the table. Once the row has been removed the current rows caption is reduced by 1.
+		function deleteThisRow() {
+            var removeRow = event.target.parentNode.parentNode;
+            removeRow.parentNode.removeChild(removeRow);
+            currentRows -= 1;
+			if (currentRows == 1){
+				document.getElementById("captionRow").innerHTML = "There is currently " + currentRows + " row.";
+			}
+			else {
+				document.getElementById("captionRow").innerHTML = "There is currently " + currentRows + " rows.";
+			}
+        }
+		
+		//If the validation function returns true, then add one to the current row and fill the row with each point of information.
+		//The delete button creation is then typed into text to then be inserted into the inner html of the 5th cell, when added it acts
+		//as a way to delete the current row. The form is then reset and made blank for the next input. 
+		function createRow() {
+			if(validation() == true){
+				currentRows += 1;
+				var customerName = document.getElementById("name").value;
+				var Age = document.getElementById("age").value;
+				var Feet = document.getElementById("feet").value;
+				var Inch = document.getElementById("inches").value;
+				var startDate = document.getElementById("start").value;
+			
+				var table = document.getElementById("membership");
+				var row = table.insertRow(1);
+
+				row.className = 'record';
+				
+				var cell1 = row.insertCell(0);
+				var cell2 = row.insertCell(1);
+				var cell3 = row.insertCell(2);
+				var cell4 = row.insertCell(3);
+				var cell5 = row.insertCell(4);
+				
+				cell1.innerHTML = customerName;
+				cell2.innerHTML = Age;
+				cell3.innerHTML = Feet + "′ " + Inch + "''";
+				cell4.innerHTML = startDate;
+				cell5.innerHTML = '<button type="button" onclick="deleteThisRow()">X</button>';
+				
+				settingForm()
+				
+				if (currentRows == 1){
+					document.getElementById("captionRow").innerHTML = "There is currently " + currentRows + " row.";
+				}
+				else {
+					document.getElementById("captionRow").innerHTML = "There is currently " + currentRows + " rows.";
+				}
+			}
+		}
+		
+		//This sets all the values inside the form back to "blank" ready for a new user input.
+		function settingForm() {
+			var customerName = document.getElementById("name").value = "";
+			var Age = document.getElementById("age").value = "";
+			var Feet = document.getElementById("feet").value = "";
+			var Inch = document.getElementById("inches").value = "";
+			var startDate = document.getElementById("start").value = "";		
+		}
+	</script>
+</html>
