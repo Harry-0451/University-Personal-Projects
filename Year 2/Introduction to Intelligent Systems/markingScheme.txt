@@ -1,0 +1,23 @@
+
+The marking scheme is as follows:
+
+A program that compiles and apparently functions gets 20 marks. Non-compiling and non-functioning code will receive 0 marks.
+Deductions also if the student did not follow the instruction, for example did not check in the results or in the correct folder, in which case manual changes to the code are necessary.
+
+The rest of the marks are allocated according to performance and speed of the output.
+
+There will be up to 30 marks for problem 1 and 30 marks for problem 2 in terms of performance.
+
+The first problem: 1 mark for each order of magnitude that the solution comes close to the global minimum.
+
+So, for example:  1e-15 would get 15 marks. Marks are capped at 30 when the student hits the global minimum.
+
+For problem 2: Number of marks is 30*your_fitness/210, again capped at 30 (i.e. full 30 marks if fitness is 210 or more).
+
+There is reward and penalty for runtime as evaluated on raptor:
+Up to 60 seconds: No penalty and up to 20 marks for fast runtime using (total_performance_mark/3)*5/your_runtime (capped at 20, i.e.full 20 marks for runtime of 5 seconds or less with perfect solutions).
+After 60 seconds, the program will be terminated and no marks will be awarded.
+
+
+
+
