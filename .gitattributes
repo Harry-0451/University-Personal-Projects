@@ -3,3 +3,4 @@
 *.py linguist-vendored=false
 *.html linguist-vendored=false
 *.php linguist-vendored=false
+*.m linguist-vendored=false
