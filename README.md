@@ -3,6 +3,7 @@
 ## Most Noteable Projects
 
 Year 3 Computational Creativity
+
 Year 3 Group Project
 
 # University Projects
