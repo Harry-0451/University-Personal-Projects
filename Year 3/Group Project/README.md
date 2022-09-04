@@ -1,4 +1,4 @@
-# CO600
+# CO600 (Needs to be changed)
 
 
 ## how to set up Django on your local machine
