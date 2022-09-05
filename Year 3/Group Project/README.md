@@ -1,21 +1,43 @@
-# CO600 (Needs to be changed)
+# Group Project
+
+## Project Goal
+
+The goal was to create a web based application capable of providing the user with a buy/hold/sell recommendation for a particular stock. The application needed to be able to provide a reason for its result (based on the different types of analysis).
+
+## Further Work
+* A
+
+* A
+
+* T
 
 
-## how to set up Django on your local machine
-Disclaimer this was done in IntelliJ so may be some subtle differences
+## Home Page
 
-You will need to make sure you have the following installed:
-
-* [python](https://www.python.org/downloads/)
-* [pip](https://pip.pypa.io/en/stable/installation/), this makes it easier to download the rest. 
+<p align="center">
+  <img src="Github/Home.png" width="500" />
+</p>
 
 
-* Django, Plotly-dash and plotly-dash-django can all be installed easily with a pip command:
-  * [Django](https://docs.djangoproject.com/en/4.0/topics/install/#installing-official-release)
-  * Dash - pip install plotly==5.5.0
-  * Plotly-dash-django -  you can do this by typing 'pip install django-plotly-dash' into the terminal
+## Stock's Page
 
-## running the server
+<p align="center">
+  <img src="Github/Stock History.png" width="500" />
+  <img src="Github/MACD.png" width="500" />
+  <img src="Github/RSI.png" width="500" />
+  <img src="Github/Sentiment.png" width="500" />
+</p>
 
-* In a terminal, go to the StockWebApp directory and type 
-'python manage.py runserver'
+
+## Home Page
+
+<p align="center">
+  <img src="Github/Breakdown.png" width="500" />
+</p>
+
+
+### Notes
+* T
+
+## Citations
+
