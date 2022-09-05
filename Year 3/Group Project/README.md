@@ -73,9 +73,13 @@ determines if the article is positive, neutral, or negative.
 
 ## Citations
 [1] R. Gupta and M. Chen. “Sentiment Analysis for Stock Price Prediction”, 2020. [online] Ieeexplore.ieee.org. 
-[2] A. Li. and G. Bastos. “Stock Market Forecasting Using Deep Learning and Technical Analysis: A Systematic Review”, 2020. IEEE Xplore Full-Text PDF: [online] Ieeexplore.ieee.org.
-[3] T. Khair, R. Zaki and W. Mahmood. “Stock Price Prediction using Technical, Fundamental and News based Approach”, 2019 [online] Ieeexplore.ieee.org. 
-[4] Sentiwordnet Tool link ttps://github.com/aesuli/SentiWordNet
-[5] Y. Liu, Z. Su, H. Li and Y. Zhang. “An LSTM based classification method for time series trend Stock Analysis Using AI PAGE 10forecasting”, 2019 [online] ieeexplore.ieee.org/document/8833725
-[6] T. Linjordet, and K. Balog. “Impact of Training Dataset Size on Neural Answer Selection Models”,ECIR (1) 2019: 828-835 [online].
 
+[2] A. Li. and G. Bastos. “Stock Market Forecasting Using Deep Learning and Technical Analysis: A Systematic Review”, 2020. IEEE Xplore Full-Text PDF: [online] Ieeexplore.ieee.org.
+
+[3] T. Khair, R. Zaki and W. Mahmood. “Stock Price Prediction using Technical, Fundamental and News based Approach”, 2019 [online] Ieeexplore.ieee.org. 
+
+[4] Sentiwordnet Tool link ttps://github.com/aesuli/SentiWordNet
+
+[5] Y. Liu, Z. Su, H. Li and Y. Zhang. “An LSTM based classification method for time series trend Stock Analysis Using AI PAGE 10forecasting”, 2019 [online] ieeexplore.ieee.org/document/8833725
+
+[6] T. Linjordet, and K. Balog. “Impact of Training Dataset Size on Neural Answer Selection Models”,ECIR (1) 2019: 828-835 [online].
