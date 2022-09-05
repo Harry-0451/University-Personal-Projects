@@ -34,8 +34,42 @@ The goal was to create a web based application capable of providing the user wit
 </p>
 
 
-### Notes
-* T
+## Notes
+
+### Stock History
+
+The stock history is the value of each share over a certain period. 
+
+### Moving Average Convergence Divergence
+
+The moving average convergence divergence (MACD) is used to display the momentum, strength duration and 
+direction of a stock’s price. When the signal line crosses the MACD then the stock should be sold. If however 
+the MACD line is above the signal line, then the user should buy.
+
+### Relative Strength Index
+
+The relative strength index measures the momentum the price of a stock is. This means that if trades are 
+frequently buying the stock, then the value will be high (around the 70 area), if the stock is in this area, then it 
+should be sold. If however the value is being sold (around the 30 area) then the stock should be bought.
+
+### Sentiment Analysis
+
+The sentiment analysis of a stock is the opinion that articles currently have within the past week or so. The 
+sentiment is measured through keywords in the title of articles with words/phrases indicating the overall tone 
+of the paper. These key words/phrases hold a value and depending on the total value of each keyword 
+determines if the article is positive, neutral, or negative.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Citations
 [1] R. Gupta and M. Chen. “Sentiment Analysis for Stock Price Prediction”, 2020. [online] Ieeexplore.ieee.org. 
