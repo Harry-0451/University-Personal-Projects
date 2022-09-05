@@ -60,17 +60,6 @@ of the paper. These key words/phrases hold a value and depending on the total va
 determines if the article is positive, neutral, or negative.
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## Citations
 [1] R. Gupta and M. Chen. “Sentiment Analysis for Stock Price Prediction”, 2020. [online] Ieeexplore.ieee.org. 
 
