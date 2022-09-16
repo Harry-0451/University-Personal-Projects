@@ -6,6 +6,8 @@ Year 3 Computational Creativity
 
 Year 3 Group Project
 
+Compound Interest Calculator
+
 # University Projects
 
 
