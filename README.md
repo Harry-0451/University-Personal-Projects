@@ -34,3 +34,5 @@ Year 3 Group Project
 ### Signal Analysis for Computing
 
 # Personal Projects
+
+### Compound Interest Calculator
