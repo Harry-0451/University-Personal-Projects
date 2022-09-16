@@ -24,17 +24,17 @@ The goal was to create a user interface for a compound interest calculator which
 
 ### Main Window
 <p align="center">
-  <img src="GitHub/img1.png">
+  <img src="GitHub/img1.png" width="200">
 </p>
 
 ### Error Checking
 <p align="center">
-  <img src="GitHub/img2.png">
-  <img src="GitHub/img3.png">
-  <img src="GitHub/img4.png">
+  <img src="GitHub/img2.png" width="200">
+  <img src="GitHub/img3.png" width="200">
+  <img src="GitHub/img4.png" width="200">
 </p>
 
 ### Main Window
 <p align="center">
-  <img src="GitHub/img5.png">
+  <img src="GitHub/img5.png" width="200">
 </p>
